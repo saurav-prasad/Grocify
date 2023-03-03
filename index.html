@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocify</title>
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <div class="relative min-h-screen bg-center min-w-full px-14 pt-7 bg-cover bg-[url('/images/image.png')]">
+        <!-- Navigation Bar -->
+        <nav class="flex items-center justify-between">
+            <img class="w-40 cursor-pointer " src="images/logo.png">
+            <ul class="flex text-center items-center">
+                <li class="list-none mx-10"><a class="font-semibold text-1xl p-1 text-yellow-300 no-underline"
+                        href="#">Home</a></li>
+                <li class="list-none mx-10"><a class="font-semibold text-1xl p-1 text-yellow-300 no-underline"
+                        href="#">Menu</a></li>
+                <li class="list-none mx-10"><a class="font-semibold text-1xl p-1 text-yellow-300 no-underline"
+                        href="#">About</a></li>
+                <li class="list-none mx-10"><a class="font-semibold text-1xl p-1 text-yellow-300 no-underline"
+                        href="#">Contact Us</a></li>
+            </ul>
+            <img class="w-10 cursor-pointer" src="images/cart.png">
+        </nav>
+        <!-- Texts section -->
+        <div class="max-w-lg mt-56">
+            <h1 class="text-white text-7xl font-bold leading-snug"><span class="text-yellow-300">Groceries</span> At <br>Your <span class="text-yellow-300">Door</span> Just In<br><span class="text-yellow-300">12 Minutes</span></h1>
+            <p class="text-white mt-5 font-medium">Grocify offers you the best quality food products and<br> all the essential groceries for your kitchen</p>
+            <div class="pb-5 mt-7">
+                <button class=" duration-300 text-white hover:bg-transparent border-transparent border-2 border-solid hover:border-solid hover:border-2 hover:border-white font-bold px-4 py-2 rounded-full bg-yellow-400">Order Now</button>
+                <button class=" duration-300 text-white hover:text-yellow-300 hover:border-yellow-200 mx-7 font-bold px-4 py-2 border-solid border-2 rounded-full bg-transparent ">Download App</button>
+            </div>
+        </div>
+        
+        <img src="images/grocery-image.png" class="z-10 absolute bottom-0 right-3 w-full xl:w-1/2  md:w-1/2"></img>
+    </div>
+</body>
+
+</html>
